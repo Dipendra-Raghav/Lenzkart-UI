@@ -42,7 +42,7 @@ class _HomescreenState extends State<Homescreen> {
                   Positioned(
                     child: Center(
                       child: Padding(
-                        padding: const EdgeInsets.all(20.0),
+                        padding: EdgeInsets.fromLTRB(20.w, 20.h, 20.w, 20.h),
                         child: Image.asset("assets/scooty.png"),
                       ),
                     ),
@@ -238,7 +238,7 @@ class _HomescreenState extends State<Homescreen> {
                     activeColor: Color(0xFF00BC8E),
                     onChanged: (bool value) {},
                   ),
-                  SizedBox(width: 8),
+                  SizedBox(width: 8.w),
                   Text(
                     "Accepting Rides",
                     style: TextStyle(
@@ -250,19 +250,19 @@ class _HomescreenState extends State<Homescreen> {
                 ],
               ),
               Container(
-                height: 1,
+                height: 1.h,
                 color: Color(0xFFC4C4C4),
               ),
               SizedBox(height: 8.h),
               Padding(
                 padding: EdgeInsets.only(left: 40.w),
-                child: const Text(
+                child: Text(
                   "SETTINGS",
                   style: TextStyle(
-                    color: Color(0xff7C7C7C),
+                    color: const Color(0xff7C7C7C),
                     fontFamily: "Jost",
                     fontWeight: FontWeight.w400,
-                    fontSize: 13,
+                    fontSize: 13.sp,
                   ),
                 ),
               ),
@@ -303,7 +303,7 @@ class _HomescreenState extends State<Homescreen> {
                               style: TextStyle(
                                 fontFamily: "Jost",
                                 fontWeight: FontWeight.w400,
-                                fontSize: 16,
+                                fontSize: 16.sp,
                               ),
                             ),
                           ],
@@ -337,13 +337,13 @@ class _HomescreenState extends State<Homescreen> {
                         Row(
                           children: [
                             Icon(Icons.location_on),
-                            SizedBox(width: 8),
+                            SizedBox(width: 8.w),
                             Text(
                               "Pickup location",
                               style: TextStyle(
                                 fontFamily: "Jost",
                                 fontWeight: FontWeight.w400,
-                                fontSize: 16,
+                                fontSize: 16.sp,
                               ),
                             ),
                           ],
@@ -377,13 +377,13 @@ class _HomescreenState extends State<Homescreen> {
                         Row(
                           children: [
                             Icon(Icons.camera_alt),
-                            SizedBox(width: 8),
+                            SizedBox(width: 8.w),
                             Text(
                               "Vehicle Photos",
                               style: TextStyle(
                                 fontFamily: "Jost",
                                 fontWeight: FontWeight.w400,
-                                fontSize: 16,
+                                fontSize: 16.sp,
                               ),
                             ),
                           ],
@@ -417,13 +417,13 @@ class _HomescreenState extends State<Homescreen> {
                         Row(
                           children: [
                             Icon(Icons.notes_outlined),
-                            SizedBox(width: 8),
+                            SizedBox(width: 8.w),
                             Text(
                               "Vehicle Description",
                               style: TextStyle(
                                 fontFamily: "Jost",
                                 fontWeight: FontWeight.w400,
-                                fontSize: 16,
+                                fontSize: 16.sp,
                               ),
                             ),
                           ],
@@ -465,7 +465,7 @@ class _HomescreenState extends State<Homescreen> {
                               style: TextStyle(
                                 fontFamily: "Jost",
                                 fontWeight: FontWeight.w400,
-                                fontSize: 16,
+                                fontSize: 16.sp,
                               ),
                             ),
                           ],
@@ -506,7 +506,7 @@ class _HomescreenState extends State<Homescreen> {
                               style: TextStyle(
                                 fontFamily: "Jost",
                                 fontWeight: FontWeight.w400,
-                                fontSize: 16,
+                                fontSize: 16.sp,
                               ),
                             ),
                           ],
@@ -529,7 +529,7 @@ class _HomescreenState extends State<Homescreen> {
                       color: Color(0xFFBA0808),
                       fontFamily: "Jost",
                       fontWeight: FontWeight.w500,
-                      fontSize: 15.51,
+                      fontSize: 15.51.sp,
                     ),
                   ),
                 ),
