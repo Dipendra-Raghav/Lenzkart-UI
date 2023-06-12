@@ -43,8 +43,7 @@ class _HomescreenState extends State<Homescreen> {
                     child: Center(
                       child: Padding(
                         padding: const EdgeInsets.all(20.0),
-                        child:
-                            Expanded(child: Image.asset("assets/scooty.png")),
+                        child: Image.asset("assets/scooty.png"),
                       ),
                     ),
                   ),
