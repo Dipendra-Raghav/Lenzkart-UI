@@ -36,20 +36,5 @@ class MyApp extends StatelessWidget {
       },
       child: const Homescreen(),
     );
-
-    // return MaterialApp(
-    //   debugShowCheckedModeBanner: false,
-    //   title: 'Lenzkart UI',
-    //   theme: ThemeData(
-    //     primaryColor: Colors.white,
-    //     appBarTheme: const AppBarTheme(
-    //       color: Colors.white,
-    //       iconTheme: IconThemeData(
-    //         color: Colors.black, // Sets the color of the leading icon
-    //       ),
-    //     ),
-    //   ),
-    //   home: Homescreen(),
-    // );
   }
 }

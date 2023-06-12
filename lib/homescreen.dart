@@ -68,8 +68,8 @@ class _HomescreenState extends State<Homescreen> {
                               shape: BoxShape.circle,
                             ),
                           ),
-                          const SizedBox(width: 8),
-                          const Text(
+                          SizedBox(width: 8.w),
+                          Text(
                             "Online",
                             style: TextStyle(
                               color: Colors.black,
