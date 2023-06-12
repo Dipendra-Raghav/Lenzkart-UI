@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+## UI
+![01](assets/ui1.jpeg)
+![02](assets/ui2.jpeg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
